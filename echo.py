@@ -1,2 +1,5 @@
 txt=input("Enter Text>> ")
-print("Echo: "+txt)
+if(txt=='exit'):
+  quit()
+else:
+  print(txt)
